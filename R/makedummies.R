@@ -19,6 +19,7 @@
 #' @return return as \code{data.frame}
 #'
 #' @note \code{tbl} class is also accepted from version 1.1 (returned as \code{data.frame}).
+#' @note Pull Request #1 (add column name when when columns has binary value) (\url{https://github.com/toshi-ara/makedummies/pull/1}). Thanks to Kohki YAMAGIWA for the contribution.
 #'
 #' @export
 
@@ -119,6 +120,7 @@ makedummies <- function(dat, basal_level = FALSE, col = NULL, numerical = NULL, 
                     res <- res[,-1]
                 }
                 res <- data.frame(res)
+                colnames(res) <- name
             }
         } else { ## non-factor and non-ordered => as-is
             res <- data.frame(tmp)
