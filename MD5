@@ -1,7 +1,7 @@
-fd600919f3cecb3a7bc79b2d792d0e1f *DESCRIPTION
+1f48e7e01040c5b7d3989428fb4b86e6 *DESCRIPTION
 eb723b61539feef013de476e68b5c50a *GPL-2
 770196ae6d51a5319006eda49a6911be *NAMESPACE
-76b67b8c290352bb71ada3eafe7b1a4a *NEWS
-4867cff80e1df4e81cffd8b1c0f7bdc8 *R/makedummies.R
+081a54d8a6b7e822b766b728e8b2d91f *NEWS.md
+074d123551028bb71b0d6c41dada0aa4 *R/makedummies.R
 b35c57b55eead852c61cd8556af0d5c4 *README.md
-cf7b6dad0e3c75346d5bef45ccb6bd27 *man/makedummies.Rd
+198bf73a39db3d868c8584be18fcebec *man/makedummies.Rd
